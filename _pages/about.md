@@ -13,4 +13,4 @@ redirect_from:
 #### Official Links:  
 - 🎓 **University Website**: [https://www.xidian.edu.cn](https://www.xidian.edu.cn)  
 - 📡 **School of Electronic Engineering**: [https://see.xidian.edu.cn](https://see.xidian.edu.cn)  
-- 🧪 **Graduate Programs**: [https://see.xidian.edu.cn/html/news/10326.html](https://see.xidian.edu.cn/html/news/10326.html)
+
