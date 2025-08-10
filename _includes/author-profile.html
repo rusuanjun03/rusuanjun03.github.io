@@ -163,30 +163,27 @@
   </div>
 </div>
     
-<!-- 在文件末尾添加以下代码 -->
 <div class="author__counter">
-  <!-- 访问统计徽章 -->
-  <a href="https://visitorbadge.io/status?path=https://rusuanjun03.github.io" target="_blank">
-    <img src="https://api.visitorbadge.io/api/visitors?path=https://rusuanjun03.github.io&label=Visitors&labelColor=%23555555&countColor=%23f47373" alt="Visitor Count">
-  </a>
-
-  <!-- 添加一些CSS样式 -->
-<style>
-  .author__counter {
-    margin-top: 1.5rem;
-    text-align: center;
-    padding: 0.8rem;
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    border: 1px solid #eee;
-  }
+  <div class="visitor-count">
+    <i class="fas fa-users"></i>
+    <span>访问人数: {{ site.data.visitors.count }}</span>
+  </div>
   
-  .author__counter img {
-    max-width: 100%;
-    height: auto;
-  }
-</style>
-</div>
+  <style>
+    .visitor-count {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+    
+    .visitor-count i {
+      color: #f47373;
+    }
+  </style>
+</div>>
   
 
   
