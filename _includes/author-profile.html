@@ -160,27 +160,51 @@
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
     </ul>
-  </div>
-</div>
-
+    
+<!-- 在文件末尾添加以下代码 -->
 <div class="author__counter">
+  <!-- 访问统计徽章 -->
   <a href="https://visitorbadge.io/status?path=https://rusuanjun03.github.io" target="_blank">
     <img src="https://api.visitorbadge.io/api/visitors?path=https://rusuanjun03.github.io&label=Visitors&labelColor=%23555555&countColor=%23f47373" alt="Visitor Count">
   </a>
-</div>
-
-<style>
-  .author__counter {
-    margin-top: 1.5rem;
-    text-align: center;
-    padding: 0.8rem;
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    border: 1px solid #eee;
-  }
   
-  .author__counter img {
-    max-width: 100%;
-    height: auto;
-  }
-</style>
+  <!-- 添加一些CSS样式 -->
+  <style>
+    .author__counter {
+      margin-top: 1.5rem;
+      text-align: center;
+      padding: 0.8rem;
+      background-color: #f8f8f8;
+      border-radius: 8px;
+      border: 1px solid #eee;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    
+    .author__counter img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    .author__counter a {
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+    }
+    
+    .author__counter a:hover {
+      opacity: 0.8;
+    }
+    
+    .counter-info {
+      font-size: 0.85rem;
+      color: #666;
+      margin-top: 0.5rem;
+    }
+  </style>
+  
+  <!-- 统计信息提示 -->
+  <div class="counter-info">
+    数据每24小时更新一次 · 点击查看详情
+  </div>
+</div>
